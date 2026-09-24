@@ -26,4 +26,3 @@ python "Analysis Scripts/wrapper/Wrapper.py"
 ## Notes
 
 - In the master sheet, `Sex` is numeric (1 = female, 0 = male) and `Gender` is the same information as text (F/M). The Python functions take numeric covariates, so use `Sex` (as `Wrapper.py` does).
-- Covariates: sex, head motion (mean framewise displacement of the same condition) and mean cortical thickness for the age comparisons; sex and head motion for the brain–behaviour models.
