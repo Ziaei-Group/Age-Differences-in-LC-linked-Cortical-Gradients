@@ -1,4 +1,4 @@
-﻿# System / Office / OneDrive clutter
+# System / Office / OneDrive clutter
 desktop.ini
 Thumbs.db
 .DS_Store
@@ -14,3 +14,6 @@ __pycache__/
 # Upload helper (kept local)
 upload_to_github.ps1
 Upload to GitHub.bat
+
+# Output of Analysis Scripts/wrapper/Wrapper.py
+replication_output/
