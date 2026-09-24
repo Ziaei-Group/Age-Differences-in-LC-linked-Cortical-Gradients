@@ -12,7 +12,7 @@ pip install pandas numpy scipy statsmodels openpyxl matplotlib seaborn
 python "Analysis Scripts/wrapper/Wrapper.py"
 ```
 
-`Wrapper.py` runs the statistics reported in the paper on the released master sheet (140 participants: 72 younger, 68 older adults), prints them, and writes one CSV per analysis to `replication_output/` at the repository root (about 10 s). It uses only the code and data in this repository: age-group comparisons of gradient dispersion (negative and neutral movie, gradient range, leave-one-out reliability as covariates), brain–behaviour correlations and age-moderation models (10,000 permutations, seed 42), the pontine-tegmentum control seed, the valence/arousal ratings, and summaries of the saved reliability results. Gradients themselves are not recomputed (that needs the fMRI time series; see the MATLAB scripts below).
+`Wrapper.py` runs the statistics reported in the paper on the released master sheet (140 participants: 72 younger, 68 older adults), prints them, and writes one CSV per analysis to `replication_output/` at the repository root. It uses only the code and data in this repository: age-group comparisons of gradient dispersion (negative and neutral movie, gradient range, leave-one-out reliability as covariates), brain–behaviour correlations and age-moderation models (10,000 permutations, seed 42), the pontine-tegmentum control seed, the valence/arousal ratings, and summaries of the saved reliability results.
 
 ## Contents
 
